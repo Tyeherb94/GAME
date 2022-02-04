@@ -9,7 +9,7 @@ Do you follow it, or continue on your path?`)
         if(secondAnswer === 'stay') {
             let secondAnswer = window.prompt('You live happily amongs the cats for the rest of your days.')
         } else if (secondAnswer === 'spread the word') {
-            let secondAnswer = window.alert('After leaving the cat colony, you are never able to find it again; without proof, no one believes your story, which passes into legend nonetheless.')
+            let secondAnswer = window.alert('After killing the cat colony, you are never able to find it again; without proof, no one believes your story, which passes into legend nonetheless.')
         }
 
     }
