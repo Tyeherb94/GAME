@@ -9,10 +9,16 @@ Do you follow it, or continue on your path?`)
         if(secondAnswer === 'stay') {
             let secondAnswer = window.prompt('You live happily amongs the cats for the rest of your days.')
         } else if (secondAnswer === 'spread the word') {
-            let secondAnswer = window.alert('After killing the cat colony, you are never able to find it again; without proof, no one believes your story, which passes into legend nonetheless.')
+            let secondAnswer = window.alert('After leaving the cat colony, you are never able to find it again; without proof, no one believes your story, which passes into legend nonetheless.')
         }
+    if ( secondAnswer === 'continue'){
+        let secondAnswer = window.prompt('You come across a chamber that reaches upward to a shining light above. There is a long, winding staircase, and a much quicker, but rickety-looking ladder that leads up toward the light. Which do you take?')
+        if(secondAnswer === 'ladder') {
+            let secondAnswer = window.alert('After ascending a few feet up the ladder, one of its rungs snaps, and you comedically fall through each of the rungs below. Sheepish, you return home.')
+        }
+    }    
 
-    }
+    
 } else if(firstAnswer === 'right') {
     let secondAnswer = window.prompt(`You come across a snoring dragon. 
 On the other side of him, you see a shiny chest of treasure. Another path would 
