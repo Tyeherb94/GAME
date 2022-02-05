@@ -16,10 +16,14 @@ Do you follow it, or continue on your path?`)
         if(secondAnswer === 'ladder') {
             let secondAnswer = window.alert('After ascending a few feet up the ladder, one of its rungs snaps, and you comedically fall through each of the rungs below. Sheepish, you return home.')
         }
-    }    
+    }
+}
+
+
 
     
-} else if(firstAnswer === 'right') {
+} 
+else if(firstAnswer === 'right') {
     let secondAnswer = window.prompt(`You come across a snoring dragon. 
 On the other side of him, you see a shiny chest of treasure. Another path would 
 lead you away from the dragon altogether. Which path do you take?`)
